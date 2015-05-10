@@ -1,0 +1,113 @@
+<h2>iTunes (sub)categories</h2>
+<h3 id="subs">All subcategories</h3>
+<pre>
+    - Arts:
+  - Design
+  - Fashion & Beauty
+  - Food
+  - Literature
+  - Performing Arts
+  - Spoken Word
+  - Visual Arts
+- Business:
+  - Business News
+  - Careers
+  - Investing
+  - Management & Marketing
+  - Shopping
+- Comedy
+- Education:
+  - Educational Technology
+  - Higher Education
+  - K-12
+  - Language Courses
+  - Training
+- Games & Hobbies:
+  - Automotive
+  - Aviation
+  - Hobbies
+  - Other Games
+  - Video Games
+- Government & Organizations:
+  - Local
+  - National
+  - Non-Profit
+  - Regional
+- Health:
+  - Alternative Health
+  - Fitness & Nutrition
+  - Self-Help
+  - Sexuality
+  - Kids & Family
+- Music:
+  - Alternative
+  - Blues
+  - Country
+  - Easy Listening
+  - Electronic:
+    - Acid House
+    - Ambient
+    - Big Beat
+    - Breakbeat
+    - Disco
+    - Downtempo
+    - Drum 'n' Bass
+    - Garage
+    - Hard House
+    - House
+    - IDM
+    - Jungle
+    - Progressive
+    - Techno
+    - Trance
+    - Tribal
+    - Trip Hop
+  - Folk
+  - Freeform
+  - Hip-Hop & Rap
+  - Inspirational
+  - Jazz
+  - Latin
+  - Metal
+  - New Age
+  - Oldies
+  - Pop
+  - R&B & Urban
+  - Reggae
+  - Rock
+  - Seasonal & Holiday
+  - Soundtracks
+  - World
+- News & Politics:
+  - Conservative (Right)
+  - Liberal (Left)
+- Religion & Spirituality:
+  - Buddhism
+  - Christianity
+  - Hinduism
+  - Islam
+  - Judaism
+  - Other
+  - Spirituality
+- Science & Medicine:
+  - Medicine
+  - Natural Sciences
+  - Social Sciences
+- Society & Culture:
+  - Gay & Lesbian
+  - History
+  - Personal Journals
+  - Philosophy
+  - Places & Travel
+- Sports & Recreation:
+  - Amateur
+  - College & High School
+  - Outdoor
+  - Professional
+- TV & Film
+- Technology:
+  - Gadgets
+  - IT News
+  - Podcasting
+  - Software How-To
+</pre>

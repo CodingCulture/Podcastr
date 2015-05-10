@@ -1,0 +1,939 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-12-29 20:04+0100\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/AdminController.php:49
+msgid "Settings saved"
+msgstr ""
+
+#: Controller/AdminController.php:52
+msgid "Settings could not be saved"
+msgstr ""
+
+#: Controller/AppController.php:64
+msgid "You haven't completed the settings page. Please do!"
+msgstr ""
+
+#: Controller/AppController.php:64
+msgid "Update Settings"
+msgstr ""
+
+#: Controller/AppController.php:111
+msgid "You need to set the Podcast folder before uploading podcasts"
+msgstr ""
+
+#: Controller/AppController.php:131
+msgid "You need to set the Image folder before uploading images"
+msgstr ""
+
+#: Controller/AuthorsController.php:77
+msgid "Invalid author"
+msgstr ""
+
+#: Controller/AuthorsController.php:82
+#: Controller/PodcastTagsController.php:57
+#: Controller/PodcastsController.php:143;148
+msgid "Invalid podcast"
+msgstr ""
+
+#: Controller/AuthorsController.php:86
+msgid "Author deleted"
+msgstr ""
+
+#: Controller/AuthorsController.php:89
+#: Controller/PodcastTagsController.php:64
+#: Controller/PodcastsController.php:156
+msgid "Podcast was not deleted"
+msgstr ""
+
+#: Controller/PodcastTagsController.php:52
+msgid "Invalid tag"
+msgstr ""
+
+#: Controller/PodcastTagsController.php:61
+msgid "Tag deleted"
+msgstr ""
+
+#: Controller/PodcastsController.php:153
+msgid "Podcast deleted"
+msgstr ""
+
+#: Controller/UsersController.php:23
+msgid "Invalid username or password, try again"
+msgstr ""
+
+#: Controller/UsersController.php:42;67;98;103
+msgid "Invalid user"
+msgstr ""
+
+#: Controller/UsersController.php:52;77
+msgid "The user has been saved"
+msgstr ""
+
+#: Controller/UsersController.php:56;81
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:106
+msgid "User deleted"
+msgstr ""
+
+#: Controller/UsersController.php:109
+msgid "User was not deleted"
+msgstr ""
+
+#: Controller/VideosController.php:66;71
+msgid "Invalid video"
+msgstr ""
+
+#: Controller/VideosController.php:75
+msgid "Video deleted"
+msgstr ""
+
+#: Controller/VideosController.php:79
+msgid "Video was not deleted"
+msgstr ""
+
+#: View/Admin/index.ctp:3
+msgid "General"
+msgstr ""
+
+#: View/Admin/index.ctp:4;78
+msgid "iTunes"
+msgstr ""
+
+#: View/Admin/index.ctp:5
+msgid "Other"
+msgstr ""
+
+#: View/Admin/index.ctp:6;120
+msgid "Theme"
+msgstr ""
+
+#: View/Admin/index.ctp:7
+msgid "API"
+msgstr ""
+
+#: View/Admin/index.ctp:17
+msgid "Naming"
+msgstr ""
+
+#: View/Admin/index.ctp:18
+msgid "Everthing about brand and titles"
+msgstr ""
+
+#: View/Admin/index.ctp:19
+msgid "About logo's"
+msgstr ""
+
+#: View/Admin/index.ctp:21
+msgid "View current logo"
+msgstr ""
+
+#: View/Admin/index.ctp:25
+#: View/Podcasts/add.ctp:9
+#: View/Podcasts/edit.ctp:11
+#: View/Themed/Blue/Podcasts/add.ctp:9
+#: View/Themed/Blue/Podcasts/edit.ctp:11
+#: View/Themed/Gamehour/Podcasts/add.ctp:9
+#: View/Themed/Gamehour/Podcasts/edit.ctp:11
+#: View/Videos/add.ctp:7
+#: View/Videos/edit.ctp:7
+msgid "Title"
+msgstr ""
+
+#: View/Admin/index.ctp:27;97
+msgid "Podcast description"
+msgstr ""
+
+#: View/Admin/index.ctp:28
+msgid "introduction"
+msgstr ""
+
+#: View/Admin/index.ctp:30
+msgid "Logo"
+msgstr ""
+
+#: View/Admin/index.ctp:36
+msgid "Files"
+msgstr ""
+
+#: View/Admin/index.ctp:37
+msgid "Where should things be stored"
+msgstr ""
+
+#: View/Admin/index.ctp:38
+msgid "About files"
+msgstr ""
+
+#: View/Admin/index.ctp:41
+msgid "Install folder on disk"
+msgstr ""
+
+#: View/Admin/index.ctp:42
+msgid "Podcasts folder"
+msgstr ""
+
+#: View/Admin/index.ctp:43
+msgid "Images folder"
+msgstr ""
+
+#: View/Admin/index.ctp:51;69;102;124
+#: View/Authors/add.ctp:21
+#: View/Authors/edit.ctp:21
+#: View/PodcastTags/add.ctp:11
+#: View/Podcasts/add.ctp:56
+#: View/Podcasts/edit.ctp:22
+#: View/Themed/Blue/Authors/add.ctp:21
+#: View/Themed/Blue/Authors/edit.ctp:21
+#: View/Themed/Blue/PodcastTags/add.ctp:11
+#: View/Themed/Blue/Podcasts/add.ctp:56
+#: View/Themed/Blue/Podcasts/edit.ctp:22
+#: View/Themed/Blue/Users/edit.ctp:11
+#: View/Themed/Gamehour/Authors/add.ctp:21
+#: View/Themed/Gamehour/Authors/edit.ctp:21
+#: View/Themed/Gamehour/PodcastTags/add.ctp:11
+#: View/Themed/Gamehour/Podcasts/add.ctp:56
+#: View/Themed/Gamehour/Podcasts/edit.ctp:22
+#: View/Themed/Gamehour/Users/edit.ctp:11
+#: View/Users/edit.ctp:11
+#: View/Videos/add.ctp:19
+#: View/Videos/edit.ctp:9
+msgid "Save"
+msgstr ""
+
+#: View/Admin/index.ctp:59
+msgid "Uncategorised options are features that haven't got an explicit menu option. These could be introduced by plugins or developers. To make sure you always could change these, we've added this page, but normally you shouldn't find anything here."
+msgstr ""
+
+#: View/Admin/index.ctp:79
+msgid "About iTunes"
+msgstr ""
+
+#: View/Admin/index.ctp:83
+msgid "iTunes link"
+msgstr ""
+
+#: View/Admin/index.ctp:84
+msgid "Podcast title"
+msgstr ""
+
+#: View/Admin/index.ctp:85
+msgid "Podcast language"
+msgstr ""
+
+#: View/Admin/index.ctp:86
+msgid "Podcast email"
+msgstr ""
+
+#: View/Admin/index.ctp:87
+msgid "Podcasts owner name"
+msgstr ""
+
+#: View/Admin/index.ctp:88
+msgid "Podcasts main category"
+msgstr ""
+
+#: View/Admin/index.ctp:89
+msgid "Podcasts subcategory"
+msgstr ""
+
+#: View/Admin/index.ctp:90
+msgid "Podcasts keyword (,)"
+msgstr ""
+
+#: View/Admin/index.ctp:91
+msgid "Podcast explicity?"
+msgstr ""
+
+#: View/Admin/index.ctp:92
+msgid "Podcast image"
+msgstr ""
+
+#: View/Admin/index.ctp:93
+msgid "Podcast image alt"
+msgstr ""
+
+#: View/Admin/index.ctp:94
+msgid "Podcast url"
+msgstr ""
+
+#: View/Admin/index.ctp:95
+msgid "Podcast site feeds location"
+msgstr ""
+
+#: View/Admin/index.ctp:96
+msgid "Podcast tagline"
+msgstr ""
+
+#: View/Admin/index.ctp:98
+msgid "Podcast subtitle"
+msgstr ""
+
+#: View/Admin/index.ctp:133
+msgid "Bummer"
+msgstr ""
+
+#: View/Admin/index.ctp:134
+msgid "Podcastr doesn't support API's yet. There is support planned for Facebook API, SoundCloud API and Twitter API. You can view the status of this development on Github"
+msgstr ""
+
+#: View/Admin/index.ctp:135
+msgid "View on Github"
+msgstr ""
+
+#: View/Admin/podcasts.ctp:1
+#: View/Elements/header-admin.ctp:9
+#: View/Themed/Blue/Elements/header-admin.ctp:9
+#: View/Themed/Gamehour/Elements/header-admin.ctp:9
+msgid "Podcasts"
+msgstr ""
+
+#: View/Admin/podcasts.ctp:14
+#: View/Admin/videos.ctp:14
+#: View/Authors/index.ctp:14
+#: View/Themed/Blue/Authors/index.ctp:14
+#: View/Themed/Blue/Users/index.ctp:12
+#: View/Themed/Gamehour/Authors/index.ctp:14
+#: View/Themed/Gamehour/Users/index.ctp:12
+#: View/Users/index.ctp:12
+msgid "Edit"
+msgstr ""
+
+#: View/Admin/podcasts.ctp:14
+#: View/Admin/videos.ctp:14
+#: View/Authors/index.ctp:14
+#: View/PodcastTags/index.ctp:10
+#: View/Themed/Blue/Authors/index.ctp:14
+#: View/Themed/Blue/PodcastTags/index.ctp:10
+#: View/Themed/Blue/Users/index.ctp:12
+#: View/Themed/Gamehour/Authors/index.ctp:14
+#: View/Themed/Gamehour/PodcastTags/index.ctp:10
+#: View/Themed/Gamehour/Users/index.ctp:12
+#: View/Users/index.ctp:12
+msgid "Remove"
+msgstr ""
+
+#: View/Admin/podcasts.ctp:26
+msgid "Add Podcast"
+msgstr ""
+
+#: View/Admin/podcasts.ctp:27
+#: View/Admin/videos.ctp:26
+#: View/Authors/index.ctp:27
+#: View/PodcastTags/index.ctp:18
+#: View/Themed/Blue/Authors/index.ctp:27
+#: View/Themed/Blue/PodcastTags/index.ctp:18
+#: View/Themed/Blue/Users/index.ctp:20
+#: View/Themed/Gamehour/Authors/index.ctp:27
+#: View/Themed/Gamehour/PodcastTags/index.ctp:18
+#: View/Themed/Gamehour/Users/index.ctp:20
+#: View/Users/index.ctp:20
+msgid "Documentation"
+msgstr ""
+
+#: View/Admin/videos.ctp:1
+#: View/Elements/header-admin.ctp:10
+#: View/Elements/header.ctp:8
+msgid "Videos"
+msgstr ""
+
+#: View/Admin/videos.ctp:25
+msgid "Add Video"
+msgstr ""
+
+#: View/Authors/add.ctp:4
+#: View/Authors/index.ctp:26
+#: View/Themed/Blue/Authors/add.ctp:4
+#: View/Themed/Blue/Authors/index.ctp:26
+#: View/Themed/Gamehour/Authors/add.ctp:4
+#: View/Themed/Gamehour/Authors/index.ctp:26
+msgid "Add an author"
+msgstr ""
+
+#: View/Authors/add.ctp:9
+#: View/Authors/edit.ctp:9
+#: View/Themed/Blue/Authors/add.ctp:9
+#: View/Themed/Blue/Authors/edit.ctp:9
+#: View/Themed/Gamehour/Authors/add.ctp:9
+#: View/Themed/Gamehour/Authors/edit.ctp:9
+msgid "Name"
+msgstr ""
+
+#: View/Authors/add.ctp:12
+#: View/Authors/edit.ctp:12
+#: View/Themed/Blue/Authors/add.ctp:12
+#: View/Themed/Blue/Authors/edit.ctp:12
+#: View/Themed/Gamehour/Authors/add.ctp:12
+#: View/Themed/Gamehour/Authors/edit.ctp:12
+msgid "Surname"
+msgstr ""
+
+#: View/Authors/add.ctp:15
+#: View/Authors/edit.ctp:15
+#: View/Themed/Blue/Authors/add.ctp:15
+#: View/Themed/Blue/Authors/edit.ctp:15
+#: View/Themed/Gamehour/Authors/add.ctp:15
+#: View/Themed/Gamehour/Authors/edit.ctp:15
+msgid "Profile picture"
+msgstr ""
+
+#: View/Authors/add.ctp:15
+#: View/Themed/Blue/Authors/add.ctp:15
+#: View/Themed/Gamehour/Authors/add.ctp:15
+msgid "Gravatar url, Facebook url or other remote sources"
+msgstr ""
+
+#: View/Authors/add.ctp:16
+#: View/Authors/edit.ctp:16
+#: View/Themed/Blue/Authors/add.ctp:16
+#: View/Themed/Blue/Authors/edit.ctp:16
+#: View/Themed/Gamehour/Authors/add.ctp:16
+#: View/Themed/Gamehour/Authors/edit.ctp:16
+msgid "Email"
+msgstr ""
+
+#: View/Authors/add.ctp:18
+#: View/Authors/edit.ctp:18
+#: View/Themed/Blue/Authors/add.ctp:18
+#: View/Themed/Blue/Authors/edit.ctp:18
+#: View/Themed/Gamehour/Authors/add.ctp:18
+#: View/Themed/Gamehour/Authors/edit.ctp:18
+msgid "Bio"
+msgstr ""
+
+#: View/Authors/delete.ctp:4
+#: View/PodcastTags/delete.ctp:4
+#: View/Podcasts/delete.ctp:4
+#: View/Themed/Blue/Authors/delete.ctp:4
+#: View/Themed/Blue/PodcastTags/delete.ctp:4
+#: View/Themed/Blue/Podcasts/delete.ctp:4
+#: View/Themed/Blue/Users/delete.ctp:4
+#: View/Themed/Gamehour/Authors/delete.ctp:4
+#: View/Themed/Gamehour/PodcastTags/delete.ctp:4
+#: View/Themed/Gamehour/Podcasts/delete.ctp:4
+#: View/Themed/Gamehour/Users/delete.ctp:4
+#: View/Users/delete.ctp:4
+#: View/Videos/delete.ctp:4
+msgid "Whoa!"
+msgstr ""
+
+#: View/Authors/delete.ctp:4
+#: View/PodcastTags/delete.ctp:4
+#: View/Podcasts/delete.ctp:4
+#: View/Themed/Blue/Authors/delete.ctp:4
+#: View/Themed/Blue/PodcastTags/delete.ctp:4
+#: View/Themed/Blue/Podcasts/delete.ctp:4
+#: View/Themed/Blue/Users/delete.ctp:4
+#: View/Themed/Gamehour/Authors/delete.ctp:4
+#: View/Themed/Gamehour/PodcastTags/delete.ctp:4
+#: View/Themed/Gamehour/Podcasts/delete.ctp:4
+#: View/Themed/Gamehour/Users/delete.ctp:4
+#: View/Users/delete.ctp:4
+#: View/Videos/delete.ctp:4
+msgid "This action can not be undone"
+msgstr ""
+
+#: View/Authors/delete.ctp:10
+#: View/PodcastTags/delete.ctp:10
+#: View/Podcasts/delete.ctp:10
+#: View/Themed/Blue/Authors/delete.ctp:10
+#: View/Themed/Blue/PodcastTags/delete.ctp:10
+#: View/Themed/Blue/Podcasts/delete.ctp:10
+#: View/Themed/Blue/Users/delete.ctp:10
+#: View/Themed/Gamehour/Authors/delete.ctp:10
+#: View/Themed/Gamehour/PodcastTags/delete.ctp:10
+#: View/Themed/Gamehour/Podcasts/delete.ctp:10
+#: View/Themed/Gamehour/Users/delete.ctp:10
+#: View/Users/delete.ctp:10
+#: View/Videos/delete.ctp:10
+msgid "I am sure that I want to delete this!"
+msgstr ""
+
+#: View/Authors/delete.ctp:12
+#: View/PodcastTags/delete.ctp:12
+#: View/Podcasts/delete.ctp:12
+#: View/Themed/Blue/Authors/delete.ctp:12
+#: View/Themed/Blue/PodcastTags/delete.ctp:12
+#: View/Themed/Blue/Podcasts/delete.ctp:12
+#: View/Themed/Blue/Users/delete.ctp:12
+#: View/Themed/Gamehour/Authors/delete.ctp:12
+#: View/Themed/Gamehour/PodcastTags/delete.ctp:12
+#: View/Themed/Gamehour/Podcasts/delete.ctp:12
+#: View/Themed/Gamehour/Users/delete.ctp:12
+#: View/Users/delete.ctp:12
+#: View/Videos/delete.ctp:12
+msgid "Take me away from here"
+msgstr ""
+
+#: View/Authors/edit.ctp:4
+#: View/Themed/Blue/Authors/edit.ctp:4
+#: View/Themed/Gamehour/Authors/edit.ctp:4
+msgid "Edit an author"
+msgstr ""
+
+#: View/Authors/edit.ctp:15
+#: View/Themed/Blue/Authors/edit.ctp:15
+#: View/Themed/Gamehour/Authors/edit.ctp:15
+msgid "Gravatar url, Facebook url or remote url"
+msgstr ""
+
+#: View/Authors/index.ctp:1
+#: View/Elements/header-admin.ctp:11
+#: View/Podcasts/add.ctp:39
+#: View/Themed/Blue/Authors/index.ctp:1
+#: View/Themed/Blue/Elements/header-admin.ctp:10
+#: View/Themed/Blue/Podcasts/add.ctp:39
+#: View/Themed/Gamehour/Authors/index.ctp:1
+#: View/Themed/Gamehour/Elements/header-admin.ctp:10
+#: View/Themed/Gamehour/Podcasts/add.ctp:39
+msgid "Authors"
+msgstr ""
+
+#: View/Docs/mp3uploads.ctp:6
+#: View/Themed/Blue/Docs/mp3uploads.ctp:6
+#: View/Themed/Gamehour/Docs/mp3uploads.ctp:6
+msgid "Setting up your account"
+msgstr ""
+
+#: View/Docs/mp3uploads.ctp:7
+#: View/Themed/Blue/Docs/mp3uploads.ctp:7
+#: View/Themed/Gamehour/Docs/mp3uploads.ctp:7
+msgid "Uploads to Gamehour are dependant of the server config. This installation only supports SFTP. This means you will have a user account on the webservers operating system. First off, lets change the default password"
+msgstr ""
+
+#: View/Docs/mp3uploads.ctp:8
+#: View/Themed/Blue/Docs/mp3uploads.ctp:8
+#: View/Themed/Gamehour/Docs/mp3uploads.ctp:8
+msgid "Open up your terminal client (Terminal on OSX, and if you are on Windows please download CygWin). There you will type the command <code>ssh USERNAME@gamehour.be</code>. It will prompt for a password. Supply the password that you've received from your system administrator."
+msgstr ""
+
+#: View/Docs/mp3uploads.ctp:9
+#: View/Themed/Blue/Docs/mp3uploads.ctp:9
+#: View/Themed/Gamehour/Docs/mp3uploads.ctp:9
+msgid "You'll now be logged in into a Linux enviroment. Don't worry, you won't be here for long. Type the command <code>passwd</code>. The system will now ask for your current password, a new password and a confirmation of that password. Please choose a safe, strong password."
+msgstr ""
+
+#: View/Docs/mp3uploads.ctp:10
+#: View/Themed/Blue/Docs/mp3uploads.ctp:10
+#: View/Themed/Gamehour/Docs/mp3uploads.ctp:10
+msgid "You now have a safe user that can upload to the upload directory. To close the session and logout from the enviroment, just type <code>exit</code>"
+msgstr ""
+
+#: View/Docs/mp3uploads.ctp:12
+#: View/Themed/Blue/Docs/mp3uploads.ctp:12
+#: View/Themed/Gamehour/Docs/mp3uploads.ctp:12
+msgid "Uploading new files"
+msgstr ""
+
+#: View/Docs/mp3uploads.ctp:13
+#: View/Themed/Blue/Docs/mp3uploads.ctp:13
+#: View/Themed/Gamehour/Docs/mp3uploads.ctp:13
+msgid "First off, open your SFTP client like Filezilla. There you will need to login with your credentials. Hostname is <code>gamehour.be</code> and port is <code>22</code>"
+msgstr ""
+
+#: View/Docs/mp3uploads.ctp:14;18
+#: View/Themed/Blue/Docs/mp3uploads.ctp:14;18
+#: View/Themed/Gamehour/Docs/mp3uploads.ctp:14;18
+msgid "Once logged in, you'll need to navigate to <code>/var/www/html/app/webroot/files/podcasts</code> on the Remote Site (the right pane). Then choose the file you want to upload from the Local Site (the left pane) and just drag and drop to the Remote Site."
+msgstr ""
+
+#: View/Docs/mp3uploads.ctp:16
+#: View/Themed/Blue/Docs/mp3uploads.ctp:16
+#: View/Themed/Gamehour/Docs/mp3uploads.ctp:16
+msgid "Adding files to podcasts"
+msgstr ""
+
+#: View/Docs/mp3uploads.ctp:17
+#: View/Themed/Blue/Docs/mp3uploads.ctp:17
+#: View/Themed/Gamehour/Docs/mp3uploads.ctp:17
+msgid "When you have uploaded a file, remember its filename, and append it to the Podcast Mp3 string already in place. For example, if your filename is <code>Episode3.mp3</code>, the text inside the Podcast Mp3-field should be <code>/files/podcasts/Episode3.mp3</code>"
+msgstr ""
+
+#: View/Elements/header-admin.ctp:8
+#: View/Themed/Blue/Elements/header-admin.ctp:8
+#: View/Themed/Gamehour/Elements/header-admin.ctp:8
+msgid "Config"
+msgstr ""
+
+#: View/Elements/header-admin.ctp:12
+#: View/Themed/Blue/Elements/header-admin.ctp:11
+#: View/Themed/Blue/Users/index.ctp:1
+#: View/Themed/Gamehour/Elements/header-admin.ctp:11
+#: View/Themed/Gamehour/Users/index.ctp:1
+#: View/Users/index.ctp:1
+msgid "Users"
+msgstr ""
+
+#: View/Elements/header-admin.ctp:13
+#: View/PodcastTags/index.ctp:1
+#: View/Podcasts/add.ctp:48
+#: View/Themed/Blue/Elements/header-admin.ctp:12
+#: View/Themed/Blue/PodcastTags/index.ctp:1
+#: View/Themed/Blue/Podcasts/add.ctp:48
+#: View/Themed/Gamehour/Elements/header-admin.ctp:12
+#: View/Themed/Gamehour/PodcastTags/index.ctp:1
+#: View/Themed/Gamehour/Podcasts/add.ctp:48
+msgid "Tags"
+msgstr ""
+
+#: View/Elements/header-admin.ctp:19
+#: View/Themed/Blue/Elements/header-admin.ctp:18
+#: View/Themed/Gamehour/Elements/header-admin.ctp:18
+msgid "Logout"
+msgstr ""
+
+#: View/Elements/header.ctp:7
+msgid "Podcast"
+msgstr ""
+
+#: View/PodcastFiles/add.ctp:3
+#: View/Themed/Blue/PodcastFiles/add.ctp:3
+#: View/Themed/Gamehour/PodcastFiles/add.ctp:3
+msgid "Add Upload"
+msgstr ""
+
+#: View/PodcastFiles/add.ctp:11
+#: View/Themed/Blue/PodcastFiles/add.ctp:11
+#: View/Themed/Gamehour/PodcastFiles/add.ctp:11
+msgid "Submit"
+msgstr ""
+
+#: View/PodcastTags/add.ctp:6
+#: View/Themed/Blue/PodcastTags/add.ctp:6
+#: View/Themed/Gamehour/PodcastTags/add.ctp:6
+msgid "Add tag"
+msgstr ""
+
+#: View/PodcastTags/add.ctp:9
+#: View/PodcastTags/index.ctp:6
+#: View/Themed/Blue/PodcastTags/add.ctp:9
+#: View/Themed/Blue/PodcastTags/index.ctp:6
+#: View/Themed/Gamehour/PodcastTags/add.ctp:9
+#: View/Themed/Gamehour/PodcastTags/index.ctp:6
+msgid "Tag"
+msgstr ""
+
+#: View/PodcastTags/add.ctp:10
+#: View/Themed/Blue/PodcastTags/add.ctp:10
+#: View/Themed/Gamehour/PodcastTags/add.ctp:10
+msgid "UI colour"
+msgstr ""
+
+#: View/PodcastTags/index.ctp:6
+#: View/Themed/Blue/PodcastTags/index.ctp:6
+#: View/Themed/Blue/Users/index.ctp:6
+#: View/Themed/Gamehour/PodcastTags/index.ctp:6
+#: View/Themed/Gamehour/Users/index.ctp:6
+#: View/Users/index.ctp:6
+msgid "Actions"
+msgstr ""
+
+#: View/PodcastTags/index.ctp:17
+#: View/Themed/Blue/PodcastTags/index.ctp:17
+#: View/Themed/Gamehour/PodcastTags/index.ctp:17
+msgid "Add a tag"
+msgstr ""
+
+#: View/PodcastTags/view.ctp:1
+#: View/Themed/Blue/PodcastTags/view.ctp:1
+#: View/Themed/Gamehour/PodcastTags/view.ctp:1
+msgid "Everything tagged under: "
+msgstr ""
+
+#: View/PodcastTags/view.ctp:13
+#: View/Podcasts/index.ctp:50
+#: View/Themed/Blue/PodcastTags/view.ctp:13
+#: View/Themed/Blue/Podcasts/index.ctp:43
+#: View/Themed/Gamehour/PodcastTags/view.ctp:13
+#: View/Themed/Gamehour/Podcasts/index.ctp:43
+#: View/Videos/index.ctp:28
+msgid "Play Online"
+msgstr ""
+
+#: View/PodcastTags/view.ctp:14
+#: View/Podcasts/index.ctp:51
+#: View/Themed/Blue/PodcastTags/view.ctp:14
+#: View/Themed/Blue/Podcasts/index.ctp:44
+#: View/Themed/Gamehour/PodcastTags/view.ctp:14
+#: View/Themed/Gamehour/Podcasts/index.ctp:44
+msgid "iTunes Feed"
+msgstr ""
+
+#: View/Podcasts/add.ctp:11
+#: View/Themed/Blue/Podcasts/add.ctp:11
+#: View/Themed/Gamehour/Podcasts/add.ctp:11
+#: View/Videos/add.ctp:9
+msgid "Description"
+msgstr ""
+
+#: View/Podcasts/add.ctp:19
+#: View/Podcasts/phpinfo.ctp:3
+#: View/Themed/Blue/Podcasts/add.ctp:19
+#: View/Themed/Blue/Podcasts/phpinfo.ctp:3
+#: View/Themed/Gamehour/Podcasts/add.ctp:19
+#: View/Themed/Gamehour/Podcasts/phpinfo.ctp:3
+msgid "Podcast Mp3"
+msgstr ""
+
+#: View/Podcasts/add.ctp:21
+#: View/Themed/Blue/Podcasts/add.ctp:21
+#: View/Themed/Gamehour/Podcasts/add.ctp:21
+msgid "Read the docs about large file uploads."
+msgstr ""
+
+#: View/Podcasts/add.ctp:21
+#: View/Themed/Blue/Podcasts/add.ctp:21
+#: View/Themed/Gamehour/Podcasts/add.ctp:21
+msgid "View"
+msgstr ""
+
+#: View/Podcasts/add.ctp:21
+#: View/Themed/Blue/Podcasts/add.ctp:21
+#: View/Themed/Gamehour/Podcasts/add.ctp:21
+msgid "this page"
+msgstr ""
+
+#: View/Podcasts/add.ctp:21
+#: View/Themed/Blue/Podcasts/add.ctp:21
+#: View/Themed/Gamehour/Podcasts/add.ctp:21
+msgid "to learn more."
+msgstr ""
+
+#: View/Podcasts/add.ctp:23
+#: View/Themed/Blue/Podcasts/add.ctp:23
+#: View/Themed/Gamehour/Podcasts/add.ctp:23
+#: View/Videos/add.ctp:17
+msgid "Banner image"
+msgstr ""
+
+#: View/Podcasts/add.ctp:26
+#: View/Podcasts/listen.ctp:45;104
+#: View/Themed/Blue/Podcasts/add.ctp:26
+#: View/Themed/Blue/Podcasts/listen.ctp:45;104
+#: View/Themed/Gamehour/Podcasts/add.ctp:26
+#: View/Themed/Gamehour/Podcasts/listen.ctp:45;104
+msgid "Table of contents"
+msgstr ""
+
+#: View/Podcasts/edit.ctp:13
+#: View/Themed/Blue/Podcasts/edit.ctp:13
+#: View/Themed/Gamehour/Podcasts/edit.ctp:13
+msgid "Table of Contents"
+msgstr ""
+
+#: View/Podcasts/index.ctp:16
+#: View/Themed/Blue/Podcasts/index.ctp:16
+#: View/Themed/Gamehour/Podcasts/index.ctp:16
+msgid "Howdy admin"
+msgstr ""
+
+#: View/Podcasts/index.ctp:16
+#: View/Themed/Blue/Podcasts/index.ctp:16
+#: View/Themed/Gamehour/Podcasts/index.ctp:16
+msgid "to manage podcast, you'll want to follow this link"
+msgstr ""
+
+#: View/Podcasts/index.ctp:17
+#: View/Themed/Blue/Podcasts/index.ctp:17
+#: View/Themed/Gamehour/Podcasts/index.ctp:17
+msgid "Podcast Administration"
+msgstr ""
+
+#: View/Podcasts/index.ctp:26
+#: View/Themed/Blue/Podcasts/index.ctp:26
+#: View/Themed/Gamehour/Podcasts/index.ctp:26
+msgid "Subscribe on iTunes"
+msgstr ""
+
+#: View/Podcasts/index.ctp:33
+msgid "Whoa, there aren't any podcasts published yet."
+msgstr ""
+
+#: View/Podcasts/listen.ctp:46
+#: View/Themed/Blue/Podcasts/listen.ctp:46
+#: View/Themed/Gamehour/Podcasts/listen.ctp:46
+msgid "Click play to start listening"
+msgstr ""
+
+#: View/Podcasts/listen.ctp:87
+#: View/Themed/Blue/Podcasts/listen.ctp:87
+#: View/Themed/Gamehour/Podcasts/listen.ctp:87
+msgid "Close"
+msgstr ""
+
+#: View/Podcasts/listen.ctp:88;100
+#: View/Themed/Blue/Podcasts/listen.ctp:88;100
+#: View/Themed/Gamehour/Podcasts/listen.ctp:88;100
+msgid "Skip"
+msgstr ""
+
+#: View/Podcasts/listen.ctp:91
+#: View/Themed/Blue/Podcasts/listen.ctp:91
+#: View/Themed/Gamehour/Podcasts/listen.ctp:91
+msgid "Skip to a certain point in the podcast"
+msgstr ""
+
+#: View/Podcasts/listen.ctp:96
+#: View/Themed/Blue/Podcasts/listen.ctp:96
+#: View/Themed/Gamehour/Podcasts/listen.ctp:96
+msgid "e.g. 02:01"
+msgstr ""
+
+#: View/Podcasts/listen.ctp:118
+#: View/Themed/Blue/Podcasts/listen.ctp:118
+#: View/Themed/Gamehour/Podcasts/listen.ctp:118
+msgid "No table of contents was set."
+msgstr ""
+
+#: View/Themed/Blue/Users/add.ctp:4
+#: View/Themed/Blue/Users/index.ctp:19
+#: View/Themed/Gamehour/Users/add.ctp:4
+#: View/Themed/Gamehour/Users/index.ctp:19
+#: View/Users/add.ctp:4
+#: View/Users/index.ctp:19
+msgid "Add an user"
+msgstr ""
+
+#: View/Themed/Blue/Users/add.ctp:10
+#: View/Themed/Gamehour/Users/add.ctp:10
+#: View/Users/add.ctp:10
+msgid "Login credentials"
+msgstr ""
+
+#: View/Themed/Blue/Users/add.ctp:12
+#: View/Themed/Blue/Users/edit.ctp:8
+#: View/Themed/Blue/Users/index.ctp:6
+#: View/Themed/Gamehour/Users/add.ctp:12
+#: View/Themed/Gamehour/Users/edit.ctp:8
+#: View/Themed/Gamehour/Users/index.ctp:6
+#: View/Users/add.ctp:12
+#: View/Users/edit.ctp:8
+#: View/Users/index.ctp:6
+msgid "Username"
+msgstr ""
+
+#: View/Themed/Blue/Users/add.ctp:13
+#: View/Themed/Blue/Users/edit.ctp:9
+#: View/Themed/Gamehour/Users/add.ctp:13
+#: View/Themed/Gamehour/Users/edit.ctp:9
+#: View/Users/add.ctp:13
+#: View/Users/edit.ctp:9
+msgid "Password"
+msgstr ""
+
+#: View/Themed/Blue/Users/add.ctp:14
+#: View/Themed/Gamehour/Users/add.ctp:14
+#: View/Users/add.ctp:14
+msgid "Save user"
+msgstr ""
+
+#: View/Themed/Blue/Users/add.ctp:20
+#: View/Themed/Gamehour/Users/add.ctp:20
+#: View/Users/add.ctp:20
+msgid "Connect to an author"
+msgstr ""
+
+#: View/Themed/Blue/Users/add.ctp:33
+#: View/Themed/Blue/Users/edit.ctp:27
+#: View/Themed/Gamehour/Users/add.ctp:33
+#: View/Themed/Gamehour/Users/edit.ctp:27
+#: View/Users/add.ctp:33
+#: View/Users/edit.ctp:27
+msgid "There aren't any authors defined."
+msgstr ""
+
+#: View/Themed/Blue/Users/edit.ctp:2
+#: View/Themed/Gamehour/Users/edit.ctp:2
+#: View/Users/edit.ctp:2
+msgid "Edit User:"
+msgstr ""
+
+#: View/Themed/Blue/Users/edit.ctp:6
+#: View/Themed/Gamehour/Users/edit.ctp:6
+#: View/Users/edit.ctp:6
+msgid "Login Credentials"
+msgstr ""
+
+#: View/Themed/Blue/Users/edit.ctp:9
+#: View/Themed/Gamehour/Users/edit.ctp:9
+#: View/Users/edit.ctp:9
+msgid "Unchanged"
+msgstr ""
+
+#: View/Themed/Blue/Users/edit.ctp:15
+#: View/Themed/Gamehour/Users/edit.ctp:15
+#: View/Users/edit.ctp:15
+msgid "Author"
+msgstr ""
+
+#: View/Themed/Blue/Users/index.ctp:6
+#: View/Themed/Gamehour/Users/index.ctp:6
+#: View/Users/index.ctp:6
+msgid "Linked"
+msgstr ""
+
+#: View/Themed/Blue/Users/index.ctp:6
+#: View/Themed/Gamehour/Users/index.ctp:6
+#: View/Users/index.ctp:6
+msgid "Created"
+msgstr ""
+
+#: View/Themed/Blue/Users/login.ctp:10;16
+#: View/Themed/Gamehour/Users/login.ctp:10;16
+#: View/Users/login.ctp:10;16
+msgid "Login"
+msgstr ""
+
+#: View/Themed/Blue/Users/login.ctp:21
+#: View/Themed/Gamehour/Users/login.ctp:21
+#: View/Users/login.ctp:21
+msgid "User self checkout is disabled!"
+msgstr ""
+
+#: View/Themed/Blue/Users/login.ctp:21
+#: View/Themed/Gamehour/Users/login.ctp:21
+#: View/Users/login.ctp:21
+msgid "This means users can't reset passwords themselves. If you want to reset you password, contact the admin."
+msgstr ""
+
+#: View/Videos/add.ctp:18
+msgid "Youtube Video ID"
+msgstr ""
+
+#: View/Videos/index.ctp:4
+msgid "Subscribe on YouTube"
+msgstr ""
+
+#: View/Videos/index.ctp:11
+msgid "Whoa, there aren't any videos published yet."
+msgstr ""
+
+#: View/Videos/index.ctp:29
+msgid "View on YouTube"
+msgstr ""
+
+#: Model/User.php:validation for field username
+msgid "A username is required"
+msgstr ""
+
+#: Model/User.php:validation for field password
+msgid "A password is required"
+msgstr ""
+
+#: Model/User.php:validation for field role
+msgid "Please enter a valid role"
+msgstr ""
+

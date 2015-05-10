@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:itunesu="http://www.itunesu.com/feed" version="2.0">
+    <channel>
+        <link>{{title}}</link>
+        <language>{{lang}}</language>
+        <copyright>&#xA9;2013</copyright>
+        <webMaster>{{email}} ({{name}})</webMaster>
+        <managingEditor>{{email}} ({{name}})</managingEditor>
+        <image>
+            <url>{{image}}</url>
+            <title>{{image_alt}}</title>
+            <link>{{url}}</link>
+        </image>
+        <itunes:owner>
+            <itunes:name>{{name}}</itunes:name>
+            <itunes:email>{{email}}</itunes:email>
+        </itunes:owner>
+        <itunes:category text="{{category}}">
+            <itunes:category text="{{subcat}}" />
+        </itunes:category>
+        <itunes:keywords>{{keywords}}</itunes:keywords>
+        <itunes:explicit>{{explicit}}</itunes:explicit>
+        <itunes:image href="{{image}}" />
+        <atom:link href="{{site_feed}}" rel="self" type="application/rss+xml" />
+        <pubDate>{{pubdate}}</pubDate>
+        <title>{{tagline}}</title>
+        <itunes:author>{{name}}</itunes:author>
+        <description>{{description}}</description>
+        <itunes:summary>{{description}}</itunes:summary>
+        <itunes:subtitle>{{subtitle}}</itunes:subtitle>
+        <lastBuildDate>Thu, 02 Feb 2012 00:00:00 EST</lastBuildDate>
+        {{items}}
+    </channel>
+</rss>

@@ -1,0 +1,20 @@
+.author{
+    width: 150px;
+    margin: 12px 12px 12px 0px;
+    display: inline-block;
+    position: relative;
+}
+
+.author .name{
+    position: absolute;
+    display:block;
+    top: 50%;
+    margin-top: -12px;
+    left: 50%;
+    margin-left: -50px;
+    color: #000;
+}
+
+.author img{
+    opacity: 0.4;
+}

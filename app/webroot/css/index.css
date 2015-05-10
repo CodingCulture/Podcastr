@@ -1,0 +1,87 @@
+article{
+    width: 100%;
+    border: 1px solid #e7e7e7;
+    margin: 48px 0px 24px 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+article .header{
+    height: 350px;
+    width: 100%;
+    text-align: center;
+    background-image: url('http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2014/06/halo2.jpg');
+    background-size: 100%;
+}
+
+article .header h2{
+    font-size: 48px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    margin:calc(350px /2 - 48px) 0px 0px 0px;
+    text-shadow: #545454 2px 2px;
+}
+
+article .content{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    padding: 24px 48px;
+    font-size: 16px;
+    line-height: 200%;
+}
+
+article .controls{
+    border-top: 1px solid #e7e7e7;
+}
+
+article .controls .custom{
+    margin: 0 !important;
+}
+
+article .controls .custom .control{
+    text-align: center;
+    font-size: 200%;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    transition: 0.5s;
+    padding: 12px;
+}
+
+
+.control:first-child{
+    border-right: 1px solid #e7e7e7;
+    color: #808080;
+}
+
+.control:first-child:hover{
+    background-color: #808080;
+    color: #fff;
+    border-bottom-left-radius: 5px;
+}
+
+.control:last-child{
+    color: #4891dc;
+}
+
+.control:last-child:hover{
+    background-color: #4891dc;
+    color: #fff;
+    border-bottom-right-radius: 5px;
+}
+
+@media(max-width: 960px){
+    article .header{
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+    }
+
+    article .header h2{
+        margin: 24px;
+        font-size: 24px;
+    }
+}
