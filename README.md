@@ -14,7 +14,7 @@ Podcastr is a selfhosted solution for managing and broadcasting your podcasts ov
 
 We at CodingCulture are firm believers in Open Source, and we believe that the web has become a better place by having Open Source projects, that in turn monitize through delivering services like hosting and such, much like the Wordpress.org/.com model. We were sad to see that such a model doesn't really exist in the podcast world.
 
-Yes, you have services like libsyn, but the flexibility is pretty low for our taste and the fact that you couldn't install it yourself as mentioned before motivated us to work on a custom solution for a project we were working on ((gamehour.be)[http://gamehour.be]).
+Yes, you have services like libsyn, but the flexibility is pretty low for our taste and the fact that you couldn't install it yourself as mentioned before motivated us to work on a custom solution for a project we were working on (http://gamehour.be]).
 
 We have been working on this tool for a few months now, and we've hit a lot of technical bumps (and always found a way around them, mind you), so we are pretty sure we've nailed the basic concepts and needs. 
 
