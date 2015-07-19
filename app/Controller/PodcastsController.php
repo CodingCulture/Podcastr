@@ -1,5 +1,6 @@
 <?php
 App::uses('Xml', 'Utility');
+App::Import('Controller', 'PodcastFiles');
 class PodcastsController extends AppController{
 
     public $uses = array('Podcast', 'PodcastTag', 'Author', 'PodcastConnectedAuthor', 'PodcastConnectedTag', 'PodcastFile', 'AdminVariable', 'Stat');
@@ -66,11 +67,12 @@ class PodcastsController extends AppController{
             $authors = explode(',', $podcast["Podcast"]["authors"]);
             $tags = explode(',', $podcast["Podcast"]["tags"]);
 
-            //Save the audio file
-            $mp3 = $this->saveAudioSource($podcast["Podcast"]["mp3"]);
+            //Access the files controller
+            $fileController = new PodcastFilesController;
+            $fileController->constructClasses();
 
-            $this->PodcastFile->create();
-            $mp3 = $this->PodcastFile->save(array('path' => $mp3));
+            //Save the audio file
+            $mp3 = $fileController->saveAudioSource($podcast["Podcast"]["mp3"]);
 
             if(empty($mp3)){
                 $this->Session->setFlash('Het uploaden van de file is mislukt');
@@ -78,7 +80,7 @@ class PodcastsController extends AppController{
             }
 
             //Save the graphic
-            $img = $this->saveGraphicSource($podcast["Podcast"]["image"]);
+            $img = $fileController->saveGraphicSource($podcast["Podcast"]["image"]);
 
             //Save the podcast record
             $this->Podcast->create();
@@ -209,12 +211,22 @@ class PodcastsController extends AppController{
                 'summary' => $podcast["Podcast"]["description"],
                 'subtitle' => substr($podcast["Podcast"]["description"], 0, 300),
                 'category' => 'fill',
-                'enclosure' => 'http://'. $_SERVER["HTTP_HOST"] . $this->base . '/podcasts/access.mp3?url=' . rawurlencode($podcast["PodcastFile"]["path"]) . '&amp;id=' . $podcast["Podcast"]["id"],
+                'enclosure' => 'http://'. $_SERVER["HTTP_HOST"] . $this->base . '/podcasts/access' . strrchr($podcast["PodcastFile"]["path"], ".") .'?url=' . rawurlencode($podcast["PodcastFile"]["path"]) . '&amp;id=' . $podcast["Podcast"]["id"],
                 'guid' => 'http://'. $_SERVER["HTTP_HOST"] . $this->base . $podcast["PodcastFile"]["path"], 'duration' => '0:50:00',
                 'pubdate' => date('D, d M Y H:i:s', strtotime($podcast["Podcast"]["created"])) . ' EST');
 
+
+            // Set the type of audio format
+            if(strrchr($podcast["PodcastFile"]["path"], ".") == '.m4a'){
+                $keywords["type"] = "x-m4a";
+            }
+
+            if(strrchr($podcast["PodcastFile"]["path"], ".") == '.mp3'){
+                $keywords["type"] = "mpeg";
+            }
+
             foreach($keywords as $keyword => $value){
-                if($keyword !== 'enclosure'){
+                if($keyword !== 'enclosure' && $keyword !== 'type'){
                     $item = str_replace('{{' . $keyword . '}}', htmlentities($value), $item);
                 } else {
                     $item = str_replace('{{' . $keyword . '}}', $value, $item);

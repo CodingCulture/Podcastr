@@ -1,4 +1,6 @@
 <?php
+
+
 /**
  * Routes configuration
  *
@@ -50,4 +52,4 @@
  */
 	require CAKE . 'Config' . DS . 'routes.php';
 
-Router::parseExtensions('mp3', 'xml');
+Router::parseExtensions('mp3', 'm4a', 'xml');

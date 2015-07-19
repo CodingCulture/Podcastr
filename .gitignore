@@ -1,2 +1,4 @@
 /app/tmp/
-/webroot/media/
+/webroot/files/
+/.idea/
+/app/View/Themed/Revolution

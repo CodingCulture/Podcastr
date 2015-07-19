@@ -9,7 +9,9 @@ class AdminController extends AppController{
         $this->Auth->allow('');
     }
     
-    public function beforeRender(){}
+    public function beforeRender(){
+        parent::beforeRender();
+    }
 
 
     public function podcasts(){
@@ -85,21 +87,22 @@ class AdminController extends AppController{
     }
 
     private function getThemes(){
-        $target = $this->admin_var('os_link') . 'app/View/Themed/';
-        $dirs = scandir($target);
+        if($this->admin_var('os_link') != ""){
+            $target = $this->admin_var('os_link') . 'app/View/Themed/';
+            $dirs = scandir($target);
 
-        //Hide hidden folders
-        for($i = 0; $i < sizeof($dirs); $i++){
-            if(substr($dirs[$i], 0, 1) == '.'){
-                unset($dirs[$i]);
+            //Hide hidden folders
+            for($i = 0; $i < sizeof($dirs); $i++){
+                if(substr($dirs[$i], 0, 1) == '.'){
+                    unset($dirs[$i]);
+                }
             }
+
+            foreach($dirs as $theme){
+                $themes[$theme] = $theme;
+            }
+
+            return $themes;
         }
-
-        foreach($dirs as $theme){
-            $themes[$theme] = $theme;
-        }
-
-        return $themes;
-
     }
 }

@@ -11,6 +11,7 @@ class VideosController extends AppController{
     }
 
     public function beforeRender(){
+        parent::beforeRender();
         $this->beforePublicContent();
     }
 

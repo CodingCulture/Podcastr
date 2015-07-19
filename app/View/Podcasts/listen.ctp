@@ -125,16 +125,5 @@
         </div>
     </div>
 </div>
-
-<script>
-    var clicked = 0;
-    $("#play").click(function(){
-        if(clicked < 1){
-           $.post("<?php echo $this->base . "/Stats/add/podcast";?>", {"id": <?php echo $podcast["Podcast"]["id"];?>});
-        }
-        clicked++;
-    });
-</script>
-
 </body>
 </html>

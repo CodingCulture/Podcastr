@@ -4,7 +4,7 @@
     <itunes:summary>{{summary}}</itunes:summary>
     <itunes:subtitle>{{subtitle}}</itunes:subtitle>
     <itunesu:category itunesu:code="{{category}}" />
-    <enclosure url="{{enclosure}}" type="audio/mpeg" length="1" />
+    <enclosure url="{{enclosure}}" type="audio/{{type}}" length="1" />
     <guid>{{guid}}</guid>
     <itunes:duration>{{duration}}</itunes:duration>
     <pubDate>{{pubdate}}</pubDate>
